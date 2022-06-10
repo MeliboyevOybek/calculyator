@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    border: 0px;
+
+}
+body{
+    background-color: aqua;
+}
+.container
+{
+    margin: 0px auto;
+    width: 35%;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.calculyator
+{
+    width: 100%;
+}
+.input
+{
+    font-size: 40px;
+    padding: 15px;
+    text-align: right;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 10px 10px 0px 0px;
+}
+.buttons
+{
+    display: flex;
+}
+.buttons .sonlar {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.buttons button{
+    padding: 22px 0px;
+    font-size: 25px;
+    box-sizing: border-box;
+    border: 1px solid black; 
+}
+.buttons .sonlar button {
+    width: 33.33%;
+}
+.buttons .sonlar2 {
+    width: 25%;
+}
+.buttons .sonlar2 button {
+    width:100%;
+}
+.teng
+{
+    height: 80%;
+    border-radius: 0px 0px 10px 0px;
+    background-color: rgba(255, 100, 80, 0.925);
+}
+.nol {
+border-bottom-left-radius: 10px ;
+}
